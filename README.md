@@ -12,7 +12,7 @@
         - then install the libraries locally, avoid doing a virtualenv because of the audio issues 
         - for requirement ffmpeg, make sure ffmpeg-python is installed in pip just in case
     - then run `python Part1_speech_dataset_wizard.py` to help create the audio files for test 
-    - when running, no need to install the touch github directly, just use pip install 
+    - when running, no need to install the TTS github directly, just use pip install to install the package
     - when looking at the config file, change name=`LJSpeech` - this is the base name for the model 
     - for dealing with small sample size, change these configs in the config = part of `train_vits.py`: 
 
