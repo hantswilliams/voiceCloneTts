@@ -16,6 +16,24 @@
     - when looking at the config file, change name=`LJSpeech` - this is the base name for the model 
     - for dealing with small sample size, change these configs in the config = part of `train_vits.py`: 
 
+- the key part need to look back at and re-create is in Part2_v2....
+    - need to add these into repo: 
+```
+    !mkdir datasets
+    !mkdir log 
+    !mkdir configs
+    !mkdir models
+    !mkdir output
+    !mkdir WadaSNR
+
+    !gdown https://drive.google.com/uc?id=1BksOJ-I10F0Itt2WM6kKrNmKYgOVSNSl -O /content/drive/MyDrive/VoiceCloning/models/vits_model.tar #change this link to change model to train off of (for instance training off of a different language)
+    !gdown https://drive.google.com/uc?id=1gqogUxwBeuzL0qxJJBNArYzga79P-GDP -O /content/drive/MyDrive/VoiceCloning/TTS/TTS/tts/datasets/formatters.py
+    !gdown https://drive.google.com/uc?id=180cb7NPgbcqwqCTdZv_2nc4JsQaC0Wcl -O /content/drive/MyDrive/VoiceCloning/configs/generic_config.json
+    !gdown https://drive.google.com/uc?id=1BFY3Q8HInytSfOG3i3lsIAR3XdVcgBc1 -O /content/drive/MyDrive/VoiceCloning/configs/train_vits.py #
+```
+
+- this is the config file: 
+
  ```
  config = VitsConfig(
                 audio=audio_config,
