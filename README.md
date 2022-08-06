@@ -4,6 +4,9 @@
 - https://rioharper.medium.com/cloning-your-voice-cb321908b060#22d2
 - good instructions for dealing with errors that might occur: `https://github.com/coqui-ai/TTS/discussions/1074` 
 
+## on shot encoder to check out as well 
+- https://github.com/Edresson/YourTTS/#colab-demos
+
 ## some of my notes:
 
 - local testing of step1: 
