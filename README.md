@@ -5,6 +5,7 @@
 - good instructions for dealing with errors that might occur: `https://github.com/coqui-ai/TTS/discussions/1074` 
 
 ## on shot encoder to check out as well 
+- https://edresson.github.io/YourTTS/
 - https://github.com/Edresson/YourTTS/#colab-demos
 
 ## some of my notes:
